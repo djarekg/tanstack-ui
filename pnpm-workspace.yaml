@@ -1,3 +1,11 @@
+packages:
+  - apps/*
+
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
+
+publicHoistPattern:
+  - esbuild
+  - typescript
+  - typegraphql-prisma
